@@ -1,0 +1,30 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Temporary files and generated caches
+*.tmp
+*.temp
+*.log
+__pycache__/
+.pytest_cache/
+.cache/
+node_modules/
+dist/
+build/
+
+# Scratch workspace (keep the directory itself in Git)
+work/*
+!work/.gitkeep
